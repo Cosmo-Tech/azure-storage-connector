@@ -21,12 +21,21 @@ If you want to overwrite these properties, you can write your own property value
 ![img.png](README_connection_string.png)
 
 
-### Maven dependency
+### POM.xml dependency
 
-``` 
-    <dependency> 
-        <groupId>com.cosmotech</groupId>
-        <artifactId>azure-storage-connector</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
   ```
+<dependency>
+  <groupId>com.cosmotech</groupId>
+  <artifactId>azure-storage-connector</artifactId>
+  <version>1.0-SNAPSHOT</version>
+</dependency>
+
+```
+or 
+```
+    <dependency>
+      <groupId>com.github.Cosmo-Tech</groupId>
+      <artifactId>azure-storage-connector</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+```
