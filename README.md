@@ -21,7 +21,7 @@ If you want to overwrite these properties, you can write your own property value
 ![img.png](README_connection_string.png)
 
 
-### POM.xml dependency
+## How-to
 
   ```
 <dependency>
@@ -39,3 +39,8 @@ or
       <version>1.0-SNAPSHOT</version>
     </dependency>
 ```
+
+## Tasks :
+
+- [ ] Add more logs (maybe with some metrics)
+- [ ] adapt generateFileTree in order to have relevant domain hierarchy

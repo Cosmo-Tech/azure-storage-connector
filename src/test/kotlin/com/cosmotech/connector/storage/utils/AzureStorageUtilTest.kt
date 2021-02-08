@@ -30,7 +30,5 @@ class AzureStorageUtilTest: AbstractUnitTest() {
         assertEquals(fileTree.plus(defaultCsvData.fileName).plus(defaultCsvData.extension),hierarchicalFileName)
     }
 
-    //TODO test generateFileTree method
-
 
 }
