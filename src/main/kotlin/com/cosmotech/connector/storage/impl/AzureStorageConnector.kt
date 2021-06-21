@@ -38,6 +38,8 @@ class AzureStorageConnector(
         var blobClient: BlobClient
         val result = mutableMapOf<String,CsvData>()
         val fileTree = AzureStorageUtil.generateFileTree()
+        LOGGER.info("Uploading ${dataToStore.size} files to Azure Storage container: " +
+                AzureStorageUtil.getBlobContainerName())
         dataToStore.forEach {
             // Verify that the files have been created (else create them)
             val filePathName = it.getExportFilePath()
